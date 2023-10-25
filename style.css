@@ -1,91 +1,118 @@
-////////////font정보///////////////
 @font-face {
-    font-family: "Pretendard";
-    font-weight: 900;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 800;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 700;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 600;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 500;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 400;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 300;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 200;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff")
-      format("woff");
-  }
-  
-  @font-face {
-    font-family: "Pretendard";
-    font-weight: 100;
-    font-display: swap;
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff")
-      format("woff");
-  }
-////////////font정보///////////////
-
-
-  body {
-    font-family: Pretendard;
-    color: #222222;
-  }
-
-.header-container{
-    display: flex;
-    justify-content: space-between;
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
+    format("woff");
 }
 
-  .header-logo {
-    width: 108px;
-  }
-  
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
+    format("woff");
+}
 
- 
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff")
+    format("woff");
+}
+
+body {
+  font-family: Pretendard;
+  color: #222222;
+  margin: 0;
+}
+
+button {
+  background-color: transparent; /*배경색상날림*/
+  padding: 0;
+  border: 0;
+}
+
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; /*가운데 정렬*/
+  max-width: 1280px; /*헤드 좌우 여백크기*/
+  margin: auto; /*헤드 가운데 정렬max-width와 세트로 쓰임*/
+  padding: 8px 0; /*2개는 상하 최대4개 상하좌우있음*/
+}
+.header-logo {
+  width: 108px;
+}
+.header-container > div {
+  display: flex;
+}
+
+.header-container > div > ul {
+  list-style: none; /*왼쪽이 닷 제거*/
+  display: flex;
+  gap: 36px;
+}
+
+.header-container > div > ul > li {
+  cursor: pointer; /*사용자 편의성 추가*/
+  font-weight: 600;
+}
+
+.header-login {
+  font-size: 16px;
+  font-weight: 600;
+  color: #737373; /*숫자2개가 반복되면 회색계열 색상이다*/
+}
