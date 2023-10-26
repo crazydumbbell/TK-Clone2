@@ -116,3 +116,9 @@ header {
   font-weight: 600;
   color: #737373; /*숫자2개가 반복되면 회색계열 색상이다*/
 }
+
+.banner {
+  background-image: url("./images/banner.png");
+  height: 400px;
+  background-size: cover;
+}
