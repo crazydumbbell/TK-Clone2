@@ -114,6 +114,7 @@ header {
   list-style: none; /*왼쪽이 닷 제거*/
   display: flex;
   gap: 36px;
+  padding-left: 40px;
 }
 
 .header-container > div > ul > li {
@@ -212,6 +213,7 @@ ul {
   list-style: none;
   display: grid;
   grid-template-columns: 4;
+  padding: 0;
 }
 
 .techit-school-container > .techit-school > li {
@@ -311,7 +313,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px 40px;
-  justify-content: center;
+  justify-items: center;
 }
 
 .onboarding > li {
@@ -367,4 +369,31 @@ ul {
   font-size: 14px;
   font-weight: 600;
   border-radius: 4px;
+}
+
+.education > li {
+  width: 540px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 40px;
+  background-size: cover;
+}
+
+.education > .edu-techit {
+  background-image: url("./images/techit.png");
+}
+
+.education > li > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.education > li > h5 {
+  font-size: 16px;
+}
+.education > li > button {
+  color: #737373;
+  font-size: 14px;
+  margin-top: 16px;
 }
